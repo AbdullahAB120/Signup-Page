@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+}
+
+
+
+main {
+	font-family: "Inter", sans-serif;
+	height: 100vh;
+	width: 100%;
+	background: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+
+form {
+	width: 350px;
+	background: black;
+	margin: 0 auto;
+	padding: 30px;
+	text-align: center; 
+	border-radius: 5px; 
+}
+
+
+form h1 {
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+
+form p {
+	color: #a1a1a1;
+	font-size: 15px;
+}
+
+form input{
+	width: 100%;
+	background: none;
+	border: 2px solid #d6c26e;
+	border-radius: 5px;
+	margin: 10px 0;
+	padding: 10px 15px;
+}
+form input[type="checkbox"] {
+	width: 18px;
+	height: 18px;
+	margin: 1px; 
+	padding: 0;
+}
+form input:focus {
+	outline: none;
+}
+
+form a {
+	color: #b4ac61;
+	padding: 5px 0;
+}
+form a:hover {
+	text-decoration: none;
+	color: #d6c26e;
+}
+
+form button {
+	background: #d6c26e;
+	color: black;
+	font-weight: bold;
+	border: 2px solid #d6c26e;
+	border-radius: 5px;
+	margin: 10px 0;
+	padding: 5px 15px;
+}
+form button:hover {
+	background: none;
+	color: #fff;
+}
+
+#login {
+	color: #b4ac61;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+form span a {
+	text-decoration: none;
+	color: #d6c26e;
+	font-weight: bold;
+}
+
+
+
+
+@media only screen and (max-width: 599px) {
+	form { 
+		width: 90%;
+	}
+}
